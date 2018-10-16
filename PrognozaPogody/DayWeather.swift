@@ -12,8 +12,9 @@ class DayWeather {
     var min_temp: NSNumber!
     var max_temp: NSNumber!
     var weather_state_name: String!
+    var weather_state_abbr: String!
     var wind_speed: NSNumber!
     var wind_direction: NSNumber!
     var air_pressure: NSNumber!
-    var applicable_date: String!    
+    var applicable_date: String!
 }
