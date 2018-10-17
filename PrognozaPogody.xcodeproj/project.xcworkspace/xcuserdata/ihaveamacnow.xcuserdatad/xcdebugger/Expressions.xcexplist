@@ -3,10 +3,94 @@
    version = "1.0">
    <ContextStates>
       <ContextState
+         contextName = "ViewController.getWeatherForNDays(json:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageCache">
+            </PersistentString>
+            <PersistentString
+               value = "dayWeather.weather_state_abbr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.viewDidLoad():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "data">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.getImage(typeAbbr:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "&quot;https://www.metaweather.com/static/img/weather/png/\(typeAbbr).png&quot;">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in ViewController.updateView(dayWeather:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "self.imageCache">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.getWeatherFor5Days(json:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "weathers">
+            </PersistentString>
+            <PersistentString
+               value = "singleWeatherDict">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "closure #1 in ViewController.getWeatherInformation(_:_:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
                value = "latestForecast[&quot;min_temp&quot;] as String">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "closure #1 in closure #1 in ViewController.viewDidLoad():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "(json![&quot;consolidated_weather&quot;] as [[String: Any]])[0] [&quot;min_temp&quot;] as NSNumber">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.viewDidLoad():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "weathers">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.setInitialView():ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "weathers">
+            </PersistentString>
+            <PersistentString
+               value = "json!">
+            </PersistentString>
+            <PersistentString
+               value = "getWeatherInformation(&quot;https://www.metaweather.com/api/location/\(WOEID_WARSAW)/&quot;)">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.getWeatherInformation(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "task.completionHandler">
             </PersistentString>
          </PersistentStrings>
       </ContextState>

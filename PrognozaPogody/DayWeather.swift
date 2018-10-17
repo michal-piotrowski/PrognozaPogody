@@ -7,6 +7,7 @@
 //
 
 import Foundation
+import UIKit
 
 class DayWeather {
     var min_temp: NSNumber!
@@ -17,4 +18,5 @@ class DayWeather {
     var wind_direction: NSNumber!
     var air_pressure: NSNumber!
     var applicable_date: String!
+    var weatherStateImage: UIImage!
 }
