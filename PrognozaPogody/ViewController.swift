@@ -28,7 +28,11 @@ class ViewController: UIViewController {
     @IBOutlet weak var windDir: UILabel!
     @IBOutlet weak var pressure: UILabel!
     
+    @IBOutlet weak var nextButton: UIButton!
+    @IBOutlet weak var prevButton: UIButton!
+    
     @IBAction func nextButtonAction(_ sender: UIButton) {
+        print("NEXT button pressed")
         if (currentlyDisplayedWeatherNo < weathers.count - 1) {
             currentlyDisplayedWeatherNo = currentlyDisplayedWeatherNo + 1
             updateView(dayWeather: weathers[currentlyDisplayedWeatherNo])
@@ -36,6 +40,7 @@ class ViewController: UIViewController {
     }
     
     @IBAction func prevButtonAction(_ sender: UIButton) {
+        print("         PREV button pressed")
         if (currentlyDisplayedWeatherNo > 0) {
             currentlyDisplayedWeatherNo = currentlyDisplayedWeatherNo - 1
             updateView(dayWeather: weathers[currentlyDisplayedWeatherNo])
@@ -65,6 +70,7 @@ class ViewController: UIViewController {
         windSpeedLabel.textAlignment = NSTextAlignment.right
         windDirLabel.textAlignment = NSTextAlignment.right
         pressureLabel.textAlignment = NSTextAlignment.right
+        prevButton.isEnabled = false
     }
     
     func getWeatherInformation(url_str: String) {

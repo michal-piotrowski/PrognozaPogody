@@ -98,17 +98,15 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33w-Qf-Tfi">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="33w-Qf-Tfi">
                                 <rect key="frame" x="24" y="134" width="31" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Prev"/>
                                 <connections>
                                     <action selector="prevButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="2fq-My-JEc"/>
                                 </connections>
                             </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXX-Ni-lTH">
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="eXX-Ni-lTH">
                                 <rect key="frame" x="320" y="134" width="32" height="30"/>
-                                <autoresizingMask key="autoresizingMask" flexibleMaxX="YES" flexibleMaxY="YES"/>
                                 <state key="normal" title="Next"/>
                                 <connections>
                                     <action selector="nextButtonAction:" destination="BYZ-38-t0r" eventType="touchUpInside" id="uHq-4F-M2C"/>
@@ -121,6 +119,7 @@
                             <constraint firstItem="5hp-2o-g8W" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="3SM-Ji-bmk"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="5hp-2o-g8W" secondAttribute="trailing" constant="88" id="4uK-t2-tC0"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="hMD-jS-P7B" secondAttribute="trailing" constant="188" id="6BV-o9-MX3"/>
+                            <constraint firstItem="eXX-Ni-lTH" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="114" id="7rC-GY-rXk"/>
                             <constraint firstItem="5hp-2o-g8W" firstAttribute="top" secondItem="WYM-Td-mh4" secondAttribute="bottom" constant="8" id="8B8-vr-em2"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="F1M-ck-uK8" secondAttribute="trailing" constant="88" id="BgF-4F-llG"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="2VQ-hh-6ut" secondAttribute="trailing" constant="188" id="BhD-Sy-2x5"/>
@@ -130,6 +129,7 @@
                             <constraint firstItem="7yq-Qe-KHQ" firstAttribute="leading" secondItem="oF8-pW-kLe" secondAttribute="trailing" constant="8" id="Eal-aR-D0n"/>
                             <constraint firstItem="hMD-jS-P7B" firstAttribute="top" secondItem="oF8-pW-kLe" secondAttribute="bottom" constant="8" id="Fud-n4-uca"/>
                             <constraint firstItem="F1M-ck-uK8" firstAttribute="leading" secondItem="hMD-jS-P7B" secondAttribute="trailing" constant="8" id="I1T-bb-8n3"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="33w-Qf-Tfi" secondAttribute="bottom" constant="503" id="JO0-cY-XM8"/>
                             <constraint firstItem="qVl-hI-62u" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" id="Jxm-tn-at9"/>
                             <constraint firstItem="h4h-H4-iGW" firstAttribute="leading" secondItem="Yv4-hL-8lz" secondAttribute="trailing" constant="8" id="K5H-px-a4A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="qVl-hI-62u" secondAttribute="bottom" constant="626" id="MFD-DI-veW"/>
@@ -138,9 +138,11 @@
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="WYM-Td-mh4" secondAttribute="bottom" constant="418" id="Ryy-2Y-eFL"/>
                             <constraint firstItem="WYM-Td-mh4" firstAttribute="top" secondItem="qVl-hI-62u" secondAttribute="bottom" constant="8" id="S3K-9G-F64"/>
                             <constraint firstItem="qVl-hI-62u" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="121" id="S9g-Eu-2p6"/>
+                            <constraint firstItem="WYM-Td-mh4" firstAttribute="leading" secondItem="33w-Qf-Tfi" secondAttribute="trailing" constant="32" id="SZg-E8-rzv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="nYP-sR-LvO" secondAttribute="trailing" constant="88" id="TpZ-T3-h9m"/>
                             <constraint firstItem="2VQ-hh-6ut" firstAttribute="top" secondItem="hMD-jS-P7B" secondAttribute="bottom" constant="8" id="VNe-ID-mif"/>
                             <constraint firstItem="F1M-ck-uK8" firstAttribute="top" secondItem="7yq-Qe-KHQ" secondAttribute="bottom" constant="8" id="VwK-4b-cxO"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="bottom" secondItem="eXX-Ni-lTH" secondAttribute="bottom" constant="503" id="XfZ-vj-ppv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="7yq-Qe-KHQ" secondAttribute="trailing" constant="88" id="b5I-J2-qCO"/>
                             <constraint firstItem="nYP-sR-LvO" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="bKB-O9-sF6"/>
                             <constraint firstItem="oF8-pW-kLe" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="bTo-6F-DQO"/>
@@ -150,12 +152,16 @@
                             <constraint firstItem="h4h-H4-iGW" firstAttribute="top" secondItem="yQx-1w-qUM" secondAttribute="bottom" constant="8" id="dsX-8o-92W"/>
                             <constraint firstItem="yQx-1w-qUM" firstAttribute="top" secondItem="SLZ-Wx-r3C" secondAttribute="bottom" constant="8" id="e5k-0S-4vm"/>
                             <constraint firstItem="zTl-6S-Fqm" firstAttribute="top" secondItem="2VQ-hh-6ut" secondAttribute="bottom" constant="8" id="eri-1t-FHM"/>
+                            <constraint firstItem="33w-Qf-Tfi" firstAttribute="top" secondItem="6Tk-OE-BBY" secondAttribute="top" constant="114" id="iX5-Df-tdd"/>
+                            <constraint firstItem="33w-Qf-Tfi" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="24" id="md5-No-FlG"/>
+                            <constraint firstItem="eXX-Ni-lTH" firstAttribute="leading" secondItem="WYM-Td-mh4" secondAttribute="trailing" constant="33" id="qkp-Um-ByZ"/>
                             <constraint firstItem="Yv4-hL-8lz" firstAttribute="top" secondItem="zTl-6S-Fqm" secondAttribute="bottom" constant="8" id="r0b-o0-Kfx"/>
                             <constraint firstItem="2VQ-hh-6ut" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="sKI-mx-Rs8"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="Yv4-hL-8lz" secondAttribute="trailing" constant="188" id="uwu-wh-4RK"/>
                             <constraint firstItem="7yq-Qe-KHQ" firstAttribute="top" secondItem="5hp-2o-g8W" secondAttribute="bottom" constant="8" id="v6k-Te-hnH"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="SLZ-Wx-r3C" secondAttribute="trailing" constant="88" id="vqw-qv-9tq"/>
                             <constraint firstItem="SLZ-Wx-r3C" firstAttribute="leading" secondItem="2VQ-hh-6ut" secondAttribute="trailing" constant="8" id="vwE-mT-pj1"/>
+                            <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="eXX-Ni-lTH" secondAttribute="trailing" constant="23" id="wKB-ud-37A"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="yQx-1w-qUM" secondAttribute="trailing" constant="88" id="wMg-LP-PZv"/>
                             <constraint firstItem="6Tk-OE-BBY" firstAttribute="trailing" secondItem="qVl-hI-62u" secondAttribute="trailing" constant="121" id="wbq-0Q-5nC"/>
                             <constraint firstItem="hMD-jS-P7B" firstAttribute="leading" secondItem="6Tk-OE-BBY" secondAttribute="leading" constant="87" id="xb4-XM-7xX"/>
@@ -171,10 +177,10 @@
                         <outlet property="maxTempLabel" destination="hMD-jS-P7B" id="HZ9-FB-ADg"/>
                         <outlet property="minTemp" destination="7yq-Qe-KHQ" id="8Vb-Tk-Ntc"/>
                         <outlet property="minTempLabel" destination="oF8-pW-kLe" id="CbK-Rm-RuV"/>
-                        <outlet property="nextButton" destination="eXX-Ni-lTH" id="SUw-1B-Odw"/>
+                        <outlet property="nextButton" destination="eXX-Ni-lTH" id="PFa-5T-e9F"/>
                         <outlet property="pressure" destination="h4h-H4-iGW" id="JRy-a4-39A"/>
                         <outlet property="pressureLabel" destination="Yv4-hL-8lz" id="PCj-42-i5l"/>
-                        <outlet property="prevButton" destination="33w-Qf-Tfi" id="FQg-id-ZUk"/>
+                        <outlet property="prevButton" destination="33w-Qf-Tfi" id="kxE-V1-QT7"/>
                         <outlet property="weatherState" destination="nYP-sR-LvO" id="X4T-IG-c59"/>
                         <outlet property="weatherStateImage" destination="WYM-Td-mh4" id="KZK-qR-uog"/>
                         <outlet property="windDir" destination="yQx-1w-qUM" id="iFL-Gu-don"/>

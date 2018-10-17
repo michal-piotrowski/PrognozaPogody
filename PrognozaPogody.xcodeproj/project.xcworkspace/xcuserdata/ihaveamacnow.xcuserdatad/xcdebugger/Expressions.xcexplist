@@ -3,13 +3,16 @@
    version = "1.0">
    <ContextStates>
       <ContextState
-         contextName = "ViewController.getWeatherForNDays(json:):ViewController.swift">
+         contextName = "ViewController.setInitialView():ViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "imageCache">
+               value = "weathers">
             </PersistentString>
             <PersistentString
-               value = "dayWeather.weather_state_abbr">
+               value = "json!">
+            </PersistentString>
+            <PersistentString
+               value = "getWeatherInformation(&quot;https://www.metaweather.com/api/location/\(WOEID_WARSAW)/&quot;)">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -22,10 +25,18 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ViewController.getImage(typeAbbr:):ViewController.swift">
+         contextName = "ViewController.getWeatherInformation(_:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "&quot;https://www.metaweather.com/static/img/weather/png/\(typeAbbr).png&quot;">
+               value = "task.completionHandler">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
+         contextName = "ViewController.prevButtonAction(_:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "currentlyDisplayedWeatherNo &gt; 0">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
@@ -65,6 +76,17 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
+         contextName = "ViewController.getWeatherForNDays(json:):ViewController.swift">
+         <PersistentStrings>
+            <PersistentString
+               value = "imageCache">
+            </PersistentString>
+            <PersistentString
+               value = "dayWeather.weather_state_abbr">
+            </PersistentString>
+         </PersistentStrings>
+      </ContextState>
+      <ContextState
          contextName = "ViewController.viewDidLoad():ViewController.swift">
          <PersistentStrings>
             <PersistentString
@@ -73,24 +95,10 @@
          </PersistentStrings>
       </ContextState>
       <ContextState
-         contextName = "ViewController.setInitialView():ViewController.swift">
+         contextName = "ViewController.getImage(typeAbbr:):ViewController.swift">
          <PersistentStrings>
             <PersistentString
-               value = "weathers">
-            </PersistentString>
-            <PersistentString
-               value = "json!">
-            </PersistentString>
-            <PersistentString
-               value = "getWeatherInformation(&quot;https://www.metaweather.com/api/location/\(WOEID_WARSAW)/&quot;)">
-            </PersistentString>
-         </PersistentStrings>
-      </ContextState>
-      <ContextState
-         contextName = "ViewController.getWeatherInformation(_:):ViewController.swift">
-         <PersistentStrings>
-            <PersistentString
-               value = "task.completionHandler">
+               value = "&quot;https://www.metaweather.com/static/img/weather/png/\(typeAbbr).png&quot;">
             </PersistentString>
          </PersistentStrings>
       </ContextState>
